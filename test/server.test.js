@@ -50,6 +50,6 @@ test("context wrapper describes data incorporation without competing checkpoint 
   assert.match(output.prompt, /context entry/)
   assert.match(output.prompt, /data context/i)
   assert.doesNotMatch(output.prompt, /create .*section|separate .*section|competing/i)
-  assert.match(output.prompt, /nine numbered sections|nine sections/i)
+  assert.match(output.prompt, /eleven numbered sections|eleven sections/i)
   assert.match(output.prompt, /epistemic labels/i)
 })
